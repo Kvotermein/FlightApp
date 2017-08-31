@@ -2,6 +2,7 @@
   "name": "flight",
   "version": "0.1.0",
   "private": true,
+  "homepage":"http://kvotermein.github.io/flightApp",
   "dependencies": {
     "axios": "^0.16.2",
     "body-parser": "^1.17.2",
