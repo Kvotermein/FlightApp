@@ -1,0 +1,24 @@
+.form__container {
+	margin: 40vh auto;
+}
+
+.btnClose {
+	text-align: center;
+}
+
+.btnClose:hover {
+	cursor: pointer;
+	background-color: lightblue;
+}
+
+.btnFrom {
+	cursor: pointer;
+	background-color: #1877a7;
+	color: #d9edf7;
+}
+
+.btnFrom:hover {
+	background-color: darkblue;
+	color: white;
+    transition: background-color 300ms linear;
+}
