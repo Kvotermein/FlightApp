@@ -2,7 +2,7 @@
   "name": "flight",
   "version": "0.1.0",
   "private": true,
-  "homepage":"http://kvotermein.github.io/flightApp",
+  "homepage": "http://Kvotermein.github.io/FlightApp",
   "dependencies": {
     "axios": "^0.16.2",
     "body-parser": "^1.17.2",
@@ -13,25 +13,30 @@
     "react": "^15.3.0",
     "react-bootstrap": "^0.31.2",
     "react-dom": "^15.3.0",
+    "react-redux": "^5.0.6",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.0.11",
     "react-tap-event-plugin": "^2.0.1",
     "react-transition-group": "^1.1.2",
     "reactstrap": "^4.8.0",
+    "redux": "3.7.2",
     "validator": "^8.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
+    "gh-pages": "^1.0.0",
     "nodemon": "^1.11.0",
     "webpack": "^3.5.5"
   }
